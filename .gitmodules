@@ -1,0 +1,6 @@
+[submodule "MonkeyBusiness"]
+	path = MonkeyBusiness
+	url = https://github.com/drmext/MonkeyBusiness.git
+[submodule "BounceTrippy"]
+	path = BounceTrippy
+	url = https://github.com/drmext/BounceTrippy.git
