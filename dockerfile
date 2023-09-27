@@ -1,7 +1,7 @@
 ## docker build . -t e-amuse:latest
 ## docker run -p 8000:8000 e-amuse:latest
 
-FROM python:3.11-alpine --platform=$BUILDPLATFORM
+FROM python:3.11-alpine
 
 RUN apk update && apk add git curl p7zip
 RUN git clone https://github.com/drmext/MonkeyBusiness.git /opt/e-amusement/
