@@ -14,4 +14,4 @@ RUN 7z x MonkeyBusiness-ddr-webui-alpha.7z
 
 EXPOSE 8000:8000
 
-ENTRYPOINT python pyeamu.py
+ENTRYPOINT ["python3", "./pyeamu.py"]
