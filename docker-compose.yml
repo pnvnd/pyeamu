@@ -1,0 +1,10 @@
+# sudo docker-compose -f /opt/pyeamu/docker-compose.yml up -d
+services:
+  pyeamu:
+    container_name: pyeamu
+    image: ghcr.io/pnvnd/pyeamu:main
+    ports:
+      - "8000:8000"
+    environment:
+      TZ: 'America/Toronto'
+    restart: unless-stopped
